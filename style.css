@@ -60,13 +60,20 @@ p, li {
     padding-left: 9px;
     cursor: pointer;
 }
+
+
 .task-button.complete {
-    color: darkgreen;
-    
+    color: darkgreen;   
+}
+
+.task-button.complete:hover::after {
+    content: " - ad to complete";
 }
 .task-button.delete {
-    color: orangered;
-   
+    color: orangered;  
+}
+.task-button.delete:hover::after {
+    content: " - remove";
 }
 h4 {
     border-bottom: 1px solid black;
