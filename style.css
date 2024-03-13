@@ -1,0 +1,75 @@
+body {
+    font-family:  'Trebuchet MS';
+}
+#tabela {
+    border: 1px dashed black;
+    border-radius: 10px;
+    max-width: 30vw;
+}
+#task{
+    margin: 8px 0;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#task:focus {
+    background-color: rgb(210, 224, 219);
+}
+#to-do1 {
+    background-color: lightskyblue;
+    border: 1px solid rgb(147, 165, 183);
+    margin: 10px 10px 10px 10px;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+#done1 {
+    background-color: lightgreen;
+    border: 1px solid rgb(150, 180, 150);
+    margin: 10px;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+#head {
+    /*text-align: center;*/
+    background-color: rgb(190, 190, 190);
+    border: 1px solid rgb(218, 216, 216);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+}
+#head button {
+    background-color: rgb(210, 224, 219);
+    border: 1px solid rgb(87, 124, 112);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 16px;
+}
+p, li {
+    text-align: start;
+    padding: 3px 0;
+    border-bottom: 1px dashed rgb(149, 146, 146);
+    border-top: 1px dashed rgb(149, 146, 146);
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.task-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding-left: 9px;
+    cursor: pointer;
+}
+.task-button.complete {
+    color: darkgreen;
+    
+}
+.task-button.delete {
+    color: orangered;
+   
+}
+h4 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
